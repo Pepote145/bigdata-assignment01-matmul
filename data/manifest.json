@@ -1,0 +1,82 @@
+{
+  "generator": "numpy.random.PCG64, SeedSequence([seed, n]); A then B via uniform()",
+  "numpy_version": "2.5.3",
+  "seed": 20261014,
+  "value_range": [
+    -1.0,
+    1.0
+  ],
+  "dtype": "float64 little-endian, row-major",
+  "files": [
+    {
+      "n": 64,
+      "A": "A_n64.bin",
+      "B": "B_n64.bin",
+      "sha256_A": "48f96377db4f2d1f79e1beb694638dbc4d1f494a975d855847f215a8c6009936",
+      "sha256_B": "a833d082586ee78bda537366b9475740afa8a83d5289e63ecc308cd927827cbb"
+    },
+    {
+      "n": 128,
+      "A": "A_n128.bin",
+      "B": "B_n128.bin",
+      "sha256_A": "96eb0755e15bd61d3d57a97928c7567a63539b046418ce7abd63205a90e6ebbc",
+      "sha256_B": "e04e7a3f9c4839fb02f9e1d3f1e160870e0999bd5033dfdcdcd22df720e1a5f9"
+    },
+    {
+      "n": 256,
+      "A": "A_n256.bin",
+      "B": "B_n256.bin",
+      "sha256_A": "5fdf86a5a544f7114e149552b204a15bd2f0ad821208d49c0d540f6c0a221192",
+      "sha256_B": "e7788a84a873cecec955cfd78adf89685722540a99aef1fb942095bd37ee289b"
+    },
+    {
+      "n": 384,
+      "A": "A_n384.bin",
+      "B": "B_n384.bin",
+      "sha256_A": "c34adb3e3ced716b018c82af84dc2c39658dd006ad44d833a879c29c3e5b73a7",
+      "sha256_B": "61a44a3cbbfd550bb32c4558275e15358f91f0b51648e6e15a6da230dcd8a8ee"
+    },
+    {
+      "n": 512,
+      "A": "A_n512.bin",
+      "B": "B_n512.bin",
+      "sha256_A": "0d754ab0fde65c0589bcb42573ce3a1172ca1d44b983c616b6d248da52c056f7",
+      "sha256_B": "0840a77b99fd2902bae14c45195a5de2b1b95632d84c28d0f403b4d3a1ee6a6e"
+    },
+    {
+      "n": 768,
+      "A": "A_n768.bin",
+      "B": "B_n768.bin",
+      "sha256_A": "c52ed2de2feaf26b2ad62196f5296373b139a60116640fa57230c4e1acb32e00",
+      "sha256_B": "72416554def463c2e4d67e2ccf1764ca825f7fb557f64378128da19fe81d1588"
+    },
+    {
+      "n": 1000,
+      "A": "A_n1000.bin",
+      "B": "B_n1000.bin",
+      "sha256_A": "9bfed02aeefc4b31d80734dde4ca0d2b87d42de67ad1d64c5efc0b93400ced03",
+      "sha256_B": "7571508c79e93755dba4c4e6d53adddf618734916064d38d601a0dfcf65edad0"
+    },
+    {
+      "n": 1024,
+      "A": "A_n1024.bin",
+      "B": "B_n1024.bin",
+      "sha256_A": "f1f36448593f5531c084313ef843c900ab29f9e5efbd20d61b4c8afe8333e0e6",
+      "sha256_B": "ff99ccc14cb9e646e2d461595206df92acc906806347d37a445f99e19de89a46"
+    },
+    {
+      "n": 1536,
+      "A": "A_n1536.bin",
+      "B": "B_n1536.bin",
+      "sha256_A": "a05f8de03a9cd73531608501fd093160a591bd799525d741b5f8c18b751da989",
+      "sha256_B": "b74214a59c6486ffc7ffb23aaa0c501f8a7bd6b46382defe4344474b525fb79e"
+    },
+    {
+      "n": 2048,
+      "A": "A_n2048.bin",
+      "B": "B_n2048.bin",
+      "sha256_A": "a5c7771aa32491174afe1c81b8f37d0e41167f6b68ed67c27c675cf6ac0a1bb3",
+      "sha256_B": "68bbb2ee451104799d770316675b2607464668a278084676149d3070dab3ce2f"
+    }
+  ]
+}

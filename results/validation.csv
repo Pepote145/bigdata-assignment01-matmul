@@ -1,0 +1,35 @@
+case,language,n,passed,max_abs_error,detail
+hand_2x2,c,2,True,0.000e+00,exact
+hand_2x2,java,2,True,0.000e+00,exact
+hand_2x2,python,2,True,0.000e+00,exact
+identity_AI_IA,c,17,True,0.000e+00,exact
+identity_AI_IA,java,17,True,0.000e+00,exact
+identity_AI_IA,python,17,True,0.000e+00,exact
+zero,c,33,True,0.000e+00,exact
+zero,java,33,True,0.000e+00,exact
+zero,python,33,True,0.000e+00,exact
+random_vs_numpy,c,1,True,0.000e+00,bound max=6.406e-18
+random_vs_numpy,java,1,True,0.000e+00,bound max=6.406e-18
+random_vs_numpy,python,1,True,0.000e+00,bound max=6.406e-18
+bitwise_vs_c,java,1,True,0.000e+00,identical bits
+bitwise_vs_c,python,1,True,0.000e+00,identical bits
+random_vs_numpy,c,3,True,5.551e-17,bound max=9.049e-16
+random_vs_numpy,java,3,True,5.551e-17,bound max=9.049e-16
+random_vs_numpy,python,3,True,5.551e-17,bound max=9.049e-16
+bitwise_vs_c,java,3,True,0.000e+00,identical bits
+bitwise_vs_c,python,3,True,0.000e+00,identical bits
+random_vs_numpy,c,64,True,3.109e-15,bound max=3.024e-13
+random_vs_numpy,java,64,True,3.109e-15,bound max=3.024e-13
+random_vs_numpy,python,64,True,3.109e-15,bound max=3.024e-13
+bitwise_vs_c,java,64,True,0.000e+00,identical bits
+bitwise_vs_c,python,64,True,0.000e+00,identical bits
+random_vs_numpy,c,100,True,6.217e-15,bound max=7.376e-13
+random_vs_numpy,java,100,True,6.217e-15,bound max=7.376e-13
+random_vs_numpy,python,100,True,6.217e-15,bound max=7.376e-13
+bitwise_vs_c,java,100,True,0.000e+00,identical bits
+bitwise_vs_c,python,100,True,0.000e+00,identical bits
+random_vs_numpy,c,129,True,7.105e-15,bound max=1.198e-12
+random_vs_numpy,java,129,True,7.105e-15,bound max=1.198e-12
+random_vs_numpy,python,129,True,7.105e-15,bound max=1.198e-12
+bitwise_vs_c,java,129,True,0.000e+00,identical bits
+bitwise_vs_c,python,129,True,0.000e+00,identical bits

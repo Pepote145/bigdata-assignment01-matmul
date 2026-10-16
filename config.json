@@ -1,0 +1,17 @@
+{
+  "seed": 20261014,
+  "value_low": -1.0,
+  "value_high": 1.0,
+  "dtype": "float64",
+  "sizes": [64, 128, 256, 384, 512, 768, 1000, 1024, 1536, 2048],
+  "languages": ["c", "java", "python"],
+  "repetitions": 5,
+  "warmup": {"c": 1, "java": 5, "python": 1},
+  "min_batch_seconds": 0.05,
+  "max_seconds_per_multiplication": 60.0,
+  "memory_budget_bytes": 4000000000,
+  "bytes_per_element_estimate": {"c": 8, "java": 8, "python": 32},
+  "c_compiler": "gcc",
+  "c_flags": ["-O2", "-std=c11", "-ffp-contract=off"],
+  "java_opts": ["-Xmx2g", "-XX:+UseSerialGC"]
+}
